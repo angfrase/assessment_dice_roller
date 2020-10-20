@@ -44,9 +44,10 @@ let dieRolls=[]
         console.log("resetButton")
         let count = 0;
         document.getElementById("totalRolls").innerHTML = "";
-        // document.getElementById("resultsContainer").innerHTML = "";
+         //document.getElementById("resultsContainer").innerHTML = "";
         document.getElementById("diceNumber").value = "";
         // document.getElementById("diceRoll").value = "";
+        document.getElementById("results-container") .innerHTML = "";
         text = "";
         rolls = [];
         
